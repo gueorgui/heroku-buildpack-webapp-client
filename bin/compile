@@ -245,8 +245,8 @@ status "Running gulp build task"
 
 
 
-status "Trying to touch default.png at $build_dir/build/static/site/default.png"
-touch $build_dir/build/static/site/default.png
+# status "Trying to touch default.png at $build_dir/build/static/site/default.png"
+# touch $build_dir/build/static/site/default.png
 
 # Update the PATH
 status "Building runtime environment"
